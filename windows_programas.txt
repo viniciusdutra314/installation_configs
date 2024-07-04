@@ -1,0 +1,142 @@
+###software que não pode ser automatizada a instalação
+start "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://www.blackmagicdesign.com/products/davinciresolve
+
+
+###essencial
+winget install --id  Bitwarden.Bitwarden #bitwarden
+ winget install -e --id Google.GoogleDrive
+winget install -e --id Spotify.Spotify #spotify
+winget install -e --id VideoLAN.VLC
+winget install -e --id Discord.Discord  #discord
+winget install -e --id RARLab.WinRAR #winrar
+winget install -e --id Brave.Brave #brave
+winget install -e --id Nvidia.GeForceExperience
+winget install -e --id Nvidia.GeForceNow
+winget install -e –id 9NKSQGP7F2NH #whatsapp
+winget install -e --id ProtonTechnologies.ProtonVPN #protonvpn
+
+###programação
+winget install -e --id Python.Python.3.11
+python3 -m pip install blue isort numpy matplotlib scipy sympy
+python3 -m pip install --upgrade pip
+winget install -e --id Oracle.VirtualBox
+winget install -e –id Microsoft.VisualStudioCode
+winget install -e --id GitHub.cli
+winget install -e --id Git.Git
+
+###edição de vídeo
+winget install -e --id Audacity.Audacity
+winget install -e --id Gyan.FFmpeg
+winget install -e --id Jellyfin.Server
+winget install -e --id OBSProject.OBSStudio
+
+###jogos
+winget install -e --id CPUID.HWMonitor
+winget install -e --id Valve.Steam
+winget install -e --id Oracle.JavaRuntimeEnvironment #javaminecraft
+winget install -e --id qBittorrent.qBittorrent
+
+#pesquisa
+winget install -e --id DigitalScholar.Zotero #zotero
+winget install -e --id Anki.Anki #anki
+winget install -e --id Obsidian.Obsidian #obsidian
+
+
+###desbostificar o windows
+winget remove Clipchamp.Clipchamp
+winget remove Microsoft.3DBuilder
+winget remove Microsoft.549981C3F5F10   #Cortana app
+winget remove Microsoft.BingFinance
+winget remove Microsoft.BingFoodAndDrink            
+winget remove Microsoft.BingHealthAndFitness         
+winget remove Microsoft.BingNews
+winget remove Microsoft.BingSports
+winget remove Microsoft.BingTranslator
+winget remove Microsoft.BingTravel 
+winget remove Microsoft.BingWeather
+winget remove Microsoft.Getstarted   # Cannot be uninstalled in Windows 11
+winget remove Microsoft.Messaging
+winget remove Microsoft.Microsoft3DViewer
+winget remove Microsoft.MicrosoftJournal
+winget remove Microsoft.MicrosoftOfficeHub
+winget remove Microsoft.MicrosoftPowerBIForWindows
+winget remove Microsoft.MicrosoftSolitaireCollection
+winget remove Microsoft.MicrosoftStickyNotes
+winget remove Microsoft.MixedReality.Portal
+winget remove Microsoft.NetworkSpeedTest
+winget remove Microsoft.News
+winget remove Microsoft.Office.OneNote
+winget remove Microsoft.Office.Sway
+winget remove Microsoft.OneConnect
+winget remove Microsoft.Print3D
+winget remove Microsoft.SkypeApp
+winget remove Microsoft.Todos
+winget remove Microsoft.WindowsAlarms
+winget remove Microsoft.WindowsFeedbackHub
+winget remove Microsoft.WindowsMaps
+winget remove Microsoft.WindowsSoundRecorder
+winget remove Microsoft.XboxApp winget remove Microsoft.ZuneVideo
+winget remove MicrosoftCorporationII.MicrosoftFamily   # Family Safety App
+winget remove MicrosoftCorporationII.QuickAssist
+winget remove MicrosoftTeams   # Old MS Teams personal (MS Store)
+winget remove MSTeams   
+winget remove ACGMediaPlayer
+winget remove ActiproSoftwareLLC
+winget remove AdobeSystemsIncorporated.AdobePhotoshopExpress
+winget remove Amazon.com.Amazon
+winget remove AmazonVideo.PrimeVideo
+winget remove Asphalt8Airborne 
+winget remove AutodeskSketchBook
+winget remove CaesarsSlotsFreeCasino
+winget remove COOKINGFEVER
+winget remove CyberLinkMediaSuiteEssentials
+winget remove DisneyMagicKingdoms
+winget remove Disney
+winget remove DrawboardPDF
+winget remove Duolingo-LearnLanguagesforFree
+winget remove EclipseManager
+winget remove Facebook
+winget remove FarmVille2CountryEscape
+winget remove fitbit
+winget remove Flipboard
+winget remove HiddenCity
+winget remove HULULLC.HULUPLUS
+winget remove iHeartRadio
+winget remove Instagram
+winget remove king.com.BubbleWitch3Saga
+winget remove king.com.CandyCrushSaga
+winget remove king.com.CandyCrushSodaSaga
+winget remove LinkedInforWindows
+winget remove MarchofEmpires
+winget remove Netflix
+winget remove NYTCrossword
+winget remove OneCalendar
+winget remove PandoraMediaInc
+winget remove PhototasticCollage
+winget remove PicsArt-PhotoStudio
+winget remove Plex
+winget remove PolarrPhotoEditorAcademicEdition
+winget remove Royal Revolt
+winget remove Shazam
+winget remove Sidia.LiveWallpaper
+winget remove SlingTV
+winget remove TikTok
+winget remove TuneInRadio
+winget remove Twitter
+winget remove Viber
+winget remove WinZipUniversal
+winget remove Wunderlist
+winget remove XING        
+winget remove Microsoft.MSPaint                      
+winget remove Microsoft.OneDrive                     
+winget remove Microsoft.Paint                      
+winget remove Microsoft.ScreenSketch                 
+winget remove Microsoft.Whiteboard                   
+winget remove Microsoft.YourPhone                   
+winget remove Microsoft.ZuneMusic                    
+winget remove Microsoft.OutlookForWindows            
+winget remove Microsoft.People                     
+winget remove Microsoft.PowerAutomateDesktop
+winget remove Microsoft.RemoteDesktop
+
+
